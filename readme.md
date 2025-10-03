@@ -1,82 +1,69 @@
-# 🚀 Desafio de lançamento do curso de Angular na Rocketseat
 
-### ⚠️ **Instruções Importantes**
+## MarketPlace
+Projeto de Cadastro de Produtos feito durante o Desafio Angular na Prática da Rocketseat
 
-- A branch **`01-layout-completo`** deve ser utilizada por quem deseja **iniciar o desafio do zero**, acompanhando os conteúdos e evoluindo o projeto passo a passo.  
+<h1 align="center">
+  <img alt="Dom Casmurro" title="Dom Casmurro" width="700" src=".github/image.png" />
+</h1>
 
-- A branch **`main`** contém o projeto **finalizado**, de acordo com o que foi desenvolvido nos vídeos do desafio.  
+<br /><br />
 
----
+## 🚀 Tecnologias
+- [TypeScript](https://www.typescriptlang.org/) > Linguagem Principal da Aplicação
+- [Angular](https://angular.dev/) > Framework Frontend da Aplicação 
+- [TailwindCSS](https://tailwindcss.com/) > Extensão para o NextJS para estilização das páginas
+- [RxJS](https://rxjs.dev/) > Biblioteca para Manipulação de Dados
+- [Express](https://expressjs.com/) > Framework Backend da Aplicação
 
-### 📂 Descrição do Projeto
 
-Este projeto é uma simulação de um sistema de gestão de produtos que inclui as seguintes funcionalidades:
+<br /><br />
 
-* **Tela de Login**: Autenticação de usuários.
-* **Listagem de Produtos**: Exibição de produtos com opções de filtro por título e status.
-* **Tela de Criação de Produto**: Interface para adicionar novos produtos ao catálogo.
+## 💻 Executando o Projeto - Frontend
 
-O desafio é dividido em dois projetos, um frontend em Angular e um backend em Express, que estão localizados no mesmo repositório.
 
----
+#### 1º Passo - Configure as Ferramentas necessárias para rodar o projeto:
 
-### ▶️ Como Executar os Projetos
+- [Node.js](https://nodejs.org/en/) (Versão 22)
 
-Para rodar a aplicação, você deve iniciar tanto o servidor do backend quanto o frontend em terminais separados.
 
-#### Backend (Express)
+#### 2º Passo - Dentro da pasta "frontend-gestao-marketplace", instale as Dependências:
 
-1.  Abra um terminal na pasta `backend-gestao-marketplace`.
-2.  Instale as dependências do projeto:
-    ```bash
-    npm install
-    ```
-3.  Execute o comando para iniciar o servidor:
-    ```bash
-    npm run dev
-    ```
-4.  👉 O servidor estará disponível em `http://localhost:3000`.
+```bash
+# Dependencias
+$ npm install
 
-#### Frontend (Angular)
+# Angular
+$ npm i -g @angular/cli@20
+```
 
-1.  Abra um terminal na pasta `frontend-gestao-marketplace`.
-2.  Instale as dependências do projeto:
-    ```bash
-    npm install
-    ```
-3.  Execute o comando para iniciar a aplicação:
-    ```bash
-    ng serve
-    ```
-4.  👉 A aplicação estará disponível em `http://localhost:4200/`.
+#### 3º Passo - Rode o projeto:
 
----
+```bash
+$ npm run start
+```
 
-### 🛠️ Instalações Necessárias
+<br /><br />
 
-Certifique-se de que as seguintes ferramentas estão instaladas em seu ambiente para que os projetos funcionem corretamente:
+## 💻 Executando o Projeto - Backend
 
-* **Node.js**: Versão 22.19.0 (LTS).  
-* **Angular CLI**: Versão 20.  
-* **Insomnia**: Última versão para testar os endpoints do backend.  
-* **Visual Studio Code (VS Code)**: Última versão recomendada para edição de código.  
 
----
+#### 1º Passo - Configure as Ferramentas necessárias para rodar o projeto:
 
-### 💡 Extensões recomendadas do VS Code
+- [Node.js](https://nodejs.org/en/) (Versão 22)
 
-Para melhorar a produtividade durante o desenvolvimento, recomenda-se instalar as seguintes extensões no **Visual Studio Code**:
 
-- **Angular Language Service** → Fornece autocompletar, dicas e suporte avançado ao desenvolvimento Angular.  
-- **Material Icon Theme** → Adiciona ícones visuais aos arquivos e pastas, facilitando a navegação no projeto.  
-- **Shades of Purple** → Tema moderno e vibrante para melhorar a experiência visual no editor.  
-- **Tailwind CSS IntelliSense** → Autocompletar e validação para classes do Tailwind CSS, tornando o uso mais ágil e confiável.  
+#### 2º Passo - Dentro da pasta "backend-gestao-marketplace", instale as Dependências:
 
----
+```bash
+$ npm install
+```
 
-### 📸 Recursos Adicionais
+#### 3º Passo - Rode o projeto:
 
-* A pasta `imagens` na raiz do repositório contém imagens que podem ser usadas para teste ao criar um novo produto.
-* O arquivo `insomnia-backend.yaml`, localizado na pasta `backend-gestao-marketplace`, contém a coleção de endpoints que pode ser importada no Insomnia para facilitar os testes da API.
+```bash
+$ npm run dev
+```
 
----
+<br /><br />
+
+## Link do Deploy
